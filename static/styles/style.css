@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;O,9Oo;1,1OO;1.2OO;1.3OO;1.4OO;1.5OO;1.6OO;1.7OO;I.8OO;i.9OO&family=Raleway:ital,wght@O,lOOfi9OOfiO,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOflI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI&family=Roboto:ital,wght@o,i OO... 9 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O   display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -25,14 +27,70 @@ button {
 }
 
 body{
-  font-family: sans-serif;
+  font-family: "Onestgi", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .container{
-} 
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
+.header__inner{
+  display: flex;
+  align-items: center;
+
+}
+
+
+.menu{
+  margin-left: 160px;
+  margin-right: auto;
+}
+
+.menu__list{
+  display: flex;
+  gap: 40px;
+}
+
+.menu__lang{
+  margin-right: 40px;
+  display:flex;
+  gap:8px;
+}
+
+
+.header__inner .logo img{
+  height: 80px;
+  width: 120px;
+  font-size: 24px;  
+}
+
+.header__btn{
+  display: flex;
+  flex-direction: column;
+  height: 48px;
+  width: 48px;
+  gap: 8px;
+}
+
+.header__btn span {
+  background-color: #fff;
+  height: 2px;
+  width: 60%;
+}
 
 .header{
   color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
+.top{
+  background-image: url('/static/images/Group 2089.jpg');
+  height: 100vh;
+}
