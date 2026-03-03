@@ -94,3 +94,37 @@ body{
   background-image: url('/static/images/Group 2089.jpg');
   height: 100vh;
 }
+
+.top__inner{
+  padding-top: 200px;
+  color: white;
+}
+
+.top__container{
+  font-size: 18px;
+  display: flex;
+}
+.top-title{
+  font-size: 200px;
+  font-weight: 700px;
+}
+
+.top__title span{
+
+}
+
+
+.top__text{
+  
+}
+
+.top__context{
+  max-width: 368px;
+  text-align: right;
+  margin-left: auto;
+}
+
+top__info__list{
+
+}
+
