@@ -38,10 +38,9 @@ body{
   padding: 0 20px;
 }
 
-.header__inner{
+.header__inner {
   display: flex;
   align-items: center;
-
 }
 
 
@@ -59,6 +58,7 @@ body{
   margin-right: 40px;
   display:flex;
   gap:8px;
+  color: #fff;
 }
 
 
@@ -91,40 +91,51 @@ body{
 }
 
 .top{
-  background-image: url('/static/images/Group 2089.jpg');
+  background-image: url('/static/images/Image1.png');
   height: 100vh;
 }
 
 .top__inner{
   padding-top: 200px;
   color: white;
+  
 }
 
 .top__container{
   font-size: 18px;
   display: flex;
 }
-.top-title{
+
+.top__title{
   font-size: 200px;
-  font-weight: 700px;
+  font-weight: 700;
+  line-height: .85;
+  text-transform: uppercase;
 }
 
 .top__title span{
-
+  display: block;
+  margin-left: 200px;
 }
 
 
 .top__text{
-  
+  font-size: 18px;
+  margin-left: -20px;
 }
 
 .top__context{
   max-width: 368px;
   text-align: right;
   margin-left: auto;
+
 }
 
-top__info__list{
-
+.top__info__list{
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
