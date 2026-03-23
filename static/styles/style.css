@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;O,9Oo;1,1OO;1.2OO;1.3OO;1.4OO;1.5OO;1.6OO;1.7OO;I.8OO;i.9OO&family=Raleway:ital,wght@O,lOOfi9OOfiO,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOfiI,lOOfi9OOflI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI,lOOflflllI&family=Roboto:ital,wght@o,i OO... 9 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O  8 OO O   display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 html {
   box-sizing: border-box;
 }
@@ -97,12 +97,15 @@ body{
 
 .top__inner{
   padding-top: 200px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
   color: white;
-  
+  height: 100vh;
 }
 
 .top__container{
-  font-size: 18px;
+  font-size: 18px; 
   display: flex;
 }
 
@@ -128,14 +131,36 @@ body{
   max-width: 368px;
   text-align: right;
   margin-left: auto;
+}
 
+.top__info{
+  display: flex;
+  margin-top: auto;
+  gap: 40px;
 }
 
 .top__info__list{
+  max-height: 111px;
   display: flex;
-  gap: 40px;
-  margin-top: 40px;
-  font-size: 25px;
-  font-weight: bold;
+  gap: 85px;
+  font-weight: 600;
 }
 
+.info-block {
+  min-width: 200px;
+  flex: 1;
+  white-space: nowrap;
+  font-family: "Onest", sans-serif;
+}
+
+.info-block dt {
+  font-size: 64px;
+  max-height: 70px;
+  font-weight: semi-bold;
+
+}
+
+.info-block dd {
+  font-size: 32px;
+
+}
