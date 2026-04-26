@@ -36,10 +36,10 @@
         </nav>
         <ul class="menu__lang">
             <li class="menu__intem__lang">
-                <a href="#" class="menu_lang menu__intem__lang__active ">Ro</a>/
+                <a href="#" class="menu_lang\">Ro</a>/
             </li>
             <li class="menu__intem__lang">
-                <a href="#" class="menu_lang">En</a>
+                <a href="#" class="menu_lang menu__intem__lang__active">En</a>
             </li>
         </ul>
         <button class="header__btn">
@@ -50,6 +50,12 @@
  </div>
 </header>
 <section class="top">
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="static/images/video.webm" type="video/webm">
+            <source src="static/images/video.mp4" type="video/mp4">
+        </video>
+    </div>
     <div class="container">
         <div class="top__inner">
             <div class="top__container">
@@ -84,6 +90,21 @@
                             <canvas id = "canvas" width = "320" height = "320">
                                 
                             </canvas>
+                            <button class="top-plus-first">
+                                <span class="top-plus-decorative-first">
+                                    +
+                                </span>
+                                <div class="top-info-text-first">Immersive 3D Audio</div>
+                            </button>
+                            <button class="top-plus-second">
+                                <span class="top-plus-decorative-second">
+                                    +
+                                </span>
+                                <div class="top-info-text-second">Dual RGB Camera</div>
+                            </button>
+                            <div class="top-item-img">
+                                <img src="static/images/oculus-image.png" alt="images">
+                            </div>
                         </div>
                     </div>
                 </div>
